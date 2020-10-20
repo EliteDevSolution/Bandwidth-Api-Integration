@@ -1,0 +1,20 @@
+{
+    "name": "bandwidth/catapult-php-examples",
+    "type": "library",
+    "description": "Catapult PHP Examples",
+    "keywords": ["bandwidth","catapult","sdk","php"],
+    "homepage": "http://github.com/bandwidthcom/php-bandwidth-examples",
+    "reference": "v0.5.0",
+    "license": "MIT",
+    "require": {
+      "bandwidth/catapult": "0.8.*",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "Nadir Hamid",
+            "email": "matrix.nad@gmail.com",
+            "role": "Developer"
+        }
+    ]
+}
