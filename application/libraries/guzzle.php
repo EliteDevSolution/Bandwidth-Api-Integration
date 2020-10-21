@@ -4,9 +4,9 @@ require '../vendor/autoload.php';
 use GuzzleHttp\Client;
 
 // Bandwidth Creds should be stored as env vars
-$user_id    = "u-fue72jsf64pes7ak2g3j52i";
-$api_token  = "t-f3hn66iedcuoesorc6vkm6q";
-$api_secret = "vndfl7k4xe3yozp7gafkkwdrw5nrqpggmohxpaq";
+$user_id    = "bandwidth-user-id";
+$api_token  = "bandwidth-api-token";
+$api_secret = "bandwidth-api-secret-key";
 
 // Setup new client with uri, auth, and content type
 $client = new Client([
